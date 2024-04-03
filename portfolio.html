@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 22px;
+        top: 5px;
+        /* border: 2px solid red; */
+
+
+    }
+
+    .logo {
+        color: white;
+
+    }
+
+    .mid {
+        display: block;
+        top: 20px;
+        left: 43px;
+        margin: 22px 0px auto 345px;
+        /* width: 50%; */
+         border: 2px solid rgb(132, 0, 255); */
+        color: white;
+        text-align: right;
+        font-size: 20px;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 22px;
+        top: 22px;
+        border: 2px solid rgb(21, 255, 0);
+
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.774);
+        height: 56px;
+        /* border: 2px solid white; */
+    }
+
+    body {
+        background-color: black;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 4px;
+        text-align: center;
+        margin-left: 32px;
+        text-decoration: none;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+    }
+    .navbar li a:hover{
+        color: rgb(206, 10, 75);
+    }
+
+    img {
+        height: 44px;
+        margin-top: 5px;
+
+        width: 223px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 78px;
+    }
+
+    .box2 {
+        /* background-color: blue; */
+        height: 487px;
+        width: 50%;
+        margin: 50px;
+    }
+
+    .box1 {
+        /* background-color: red; */
+        height: 487px;
+        width: 50%;
+        margin: 50px;
+    }
+
+    .intro {
+        font-size: 20px;
+        color: white;
+    }
+
+    .name {
+        font-size: 45px;
+        color: pink;
+
+    }
+
+    .course {
+        font-size: 30px;
+        color: rgb(219, 57, 12);
+
+    }
+
+    .about {
+        font-size: 20px;
+        color: white;
+
+    }
+    .pic img{
+        height: 339px;
+        width: 251px;
+    }
+    .download{
+        height: 30px;
+        margin: 16px;
+        background-color: pink;
+        border-radius: 35px;
+        width: 20%;
+        font-size: 15px;
+        
+    }
+    .download:hover{
+        background-color: rgb(216, 53, 80);
+    }
+    .hire{
+        height: 30px;
+        margin: 16px;
+        background-color: pink;
+        border-radius: 35px;
+        width: 20%;
+        font-size: 15px;
+      
+    }
+    .hire:hover{
+        background-color: rgb(190, 15, 45);
+        cursor: pointer;
+    }
+    .download a{
+        text-decoration: none;
+        color: black;
+    }
+    .hire a{
+        text-decoration: none;
+        color: black;
+
+    }
+   
+</style>
+
+<body>
+    <header>
+        <div class="left">left
+            <!-- <div class="logo"> -->
+            <img src="logocopy.jpg" alt="error">
+        </div>
+
+        </div>
+        <!-- <div class="right">right</div> -->
+        <div class="mid">
+            <navbar>
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </navbar>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box1">
+            <div class="intro">
+                Hi my name is
+            </div>
+            <div class="name">
+                Neha Singh
+            </div>
+            <div class="course">
+                I'm a Btech first year student
+            </div>
+            <div class="about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates molestiae officia dignissimos
+                sequi corrupti laboriosam, soluta, aspernatur aliquam eum voluptatem nemo voluptate modi eligendi.
+                Praesentium aliquam omnis, corrupti totam culpa commodi blanditiis doloremque!
+                
+            </div>
+            <div class="button">
+                <button class="download"><a  href="" download="CV.PDF">Download CV</a></button>
+                <button class="hire"><a href="contact.html">Contact Me</a></button>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="pic">
+                <img src="Snapchat-160717481 (1).jpg" alt="error">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
